@@ -1,0 +1,82 @@
+
+.bar{
+  display: inline-flex;
+  justify-content: center;
+}
+
+.App {
+
+  align-content: center;
+  text-align: center;
+  float:center; 
+  display:inline;
+}
+
+#inpt{
+  display: block;
+  margin:0 auto;
+  height: 30px;
+  margin-top: 7px;
+  padding-left: 10px;
+}
+
+.zip {
+  font-weight: bold;
+  padding-right: 10px;
+
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #222222;
+  font-size: 20px  
+}
+
+.topPanel {
+  background: rgba(236, 236, 236);
+  text-align: left;
+  vertical-align: middle;
+  padding: 10px 20px;
+  line-height: 5px;
+  border-bottom: 1px solid grey;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 20px auto;
+  border: 1px grey solid;
+  border-radius: 6px;
+  text-align: left;
+  vertical-align: middle;
+  box-shadow: grey .01px .01px .1px .1px;
+}
+
+ul {
+  list-style-position: inside;
+  position: relative;
+  padding: 0px;
+  margin:0px
+}
+
+li {
+  padding: 3px 0px;
+  margin-left: 50px;
+  font-size: 21px;
+}
+
+#err{
+margin-top: 10px;
+}
+
+.press{
+  
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
